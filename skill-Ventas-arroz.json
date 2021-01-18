@@ -1,0 +1,2901 @@
+{
+  "intents": [
+    {
+      "intent": "about",
+      "examples": [
+        {
+          "text": "¿a qué horas atiende"
+        },
+        {
+          "text": "¿A qué se dedican?"
+        },
+        {
+          "text": "¿Cómo los encuentro?"
+        },
+        {
+          "text": "¿Cuáles son sus servicios?"
+        },
+        {
+          "text": "¿Cuál es su emprendimiento?"
+        },
+        {
+          "text": "¿Cuántos años de experiencia tienen?"
+        },
+        {
+          "text": "¿Cuántos años están en el mercado?"
+        },
+        {
+          "text": "¿En dónde están ubicados?"
+        },
+        {
+          "text": "¿en qué horarios atiende?"
+        },
+        {
+          "text": "¿Qué emprende?"
+        },
+        {
+          "text": "¿Qué hacen?"
+        },
+        {
+          "text": "que haces"
+        },
+        {
+          "text": "que ofreces"
+        },
+        {
+          "text": "¿Quiénes son ustedes?"
+        }
+      ],
+      "description": "Frases con las intenciones de usuario para las preguntas acerca del emprendimiento"
+    },
+    {
+      "intent": "Concretar_venta",
+      "examples": [
+        {
+          "text": "apenas me paguen voy, ¿te parece?"
+        },
+        {
+          "text": "concretar venta"
+        },
+        {
+          "text": "facturame por favor"
+        },
+        {
+          "text": "Más tarde voy"
+        },
+        {
+          "text": "Me gustaría ir el Viernes"
+        },
+        {
+          "text": "Me puede entregar en el horario de la tarde"
+        },
+        {
+          "text": "Me puede entregar hoy"
+        },
+        {
+          "text": "me puede facturar 5 sacos de arroz"
+        },
+        {
+          "text": "me puedes facturar"
+        },
+        {
+          "text": "¿Me puede traerlo a mi casa?"
+        },
+        {
+          "text": "ok, hágame la factura"
+        },
+        {
+          "text": "por favor factureme"
+        },
+        {
+          "text": "Por favor factúreme"
+        },
+        {
+          "text": "Traemelo a mi casa y acá te pago"
+        },
+        {
+          "text": "Traigame a las 6 pm"
+        }
+      ],
+      "description": "Intenciones con las frases para concretar venta"
+    },
+    {
+      "intent": "Confirmacion_duda",
+      "examples": [
+        {
+          "text": "Acaso"
+        },
+        {
+          "text": "A lo mejor"
+        },
+        {
+          "text": "Aún no me animo"
+        },
+        {
+          "text": "Estoy dudoso de comprar"
+        },
+        {
+          "text": "Estoy en duda"
+        },
+        {
+          "text": "Posiblmente"
+        },
+        {
+          "text": "Quizás"
+        },
+        {
+          "text": "Quizás compre"
+        },
+        {
+          "text": "Tal vez"
+        }
+      ],
+      "description": "Intenciones de usuario en duda de una respuesta"
+    },
+    {
+      "intent": "Confirmacion_No",
+      "examples": [
+        {
+          "text": "Absolutamente no"
+        },
+        {
+          "text": "Así no es"
+        },
+        {
+          "text": "de ninguna manera"
+        },
+        {
+          "text": "detente"
+        },
+        {
+          "text": "Eso no es correcto"
+        },
+        {
+          "text": "Eso no es lo que quiero"
+        },
+        {
+          "text": "está mal"
+        },
+        {
+          "text": "Imperfecto"
+        },
+        {
+          "text": "incorrecto"
+        },
+        {
+          "text": "mal"
+        },
+        {
+          "text": "Me gustaría que no siguieras con eso"
+        },
+        {
+          "text": "Me parece que esta muy mal"
+        },
+        {
+          "text": "negativamente"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "no confirmado"
+        },
+        {
+          "text": "No está listo"
+        },
+        {
+          "text": "no gracias"
+        },
+        {
+          "text": "Noo"
+        },
+        {
+          "text": "Nooo"
+        },
+        {
+          "text": "No, por favor"
+        },
+        {
+          "text": "No te daré ninguna información"
+        },
+        {
+          "text": "Por favor no cotices"
+        },
+        {
+          "text": "Por favor no factures"
+        },
+        {
+          "text": "Por favor no lo entregues"
+        },
+        {
+          "text": "Por favor no lo hagas"
+        }
+      ],
+      "description": "Intenciones de usuario negando una respuesta"
+    },
+    {
+      "intent": "Confirmacion_Si",
+      "examples": [
+        {
+          "text": "Así es"
+        },
+        {
+          "text": "bien"
+        },
+        {
+          "text": "bueno"
+        },
+        {
+          "text": "claro"
+        },
+        {
+          "text": "continúa"
+        },
+        {
+          "text": "correcto"
+        },
+        {
+          "text": "efectivamente"
+        },
+        {
+          "text": "Eso es correcto"
+        },
+        {
+          "text": "Esta bien"
+        },
+        {
+          "text": "Listo"
+        },
+        {
+          "text": "listo le confirmo"
+        },
+        {
+          "text": "Ok"
+        },
+        {
+          "text": "ok, me parece muy bien"
+        },
+        {
+          "text": "Perfecto"
+        },
+        {
+          "text": "Por favor, cotízame"
+        },
+        {
+          "text": "Por favor, factúrame"
+        },
+        {
+          "text": "por favor haz eso"
+        },
+        {
+          "text": "Por favor hazlo"
+        },
+        {
+          "text": "Por favor, hazlo"
+        },
+        {
+          "text": "Por favor me lo entregas"
+        },
+        {
+          "text": "por supuesto"
+        },
+        {
+          "text": "si"
+        },
+        {
+          "text": "Sí"
+        },
+        {
+          "text": "sii"
+        },
+        {
+          "text": "siii"
+        },
+        {
+          "text": "Sí, me gustaría seguir adelante con esto"
+        },
+        {
+          "text": "Sip"
+        },
+        {
+          "text": "Si, por favor"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "description": "Intenciones de usuario afirmando una respuesta"
+    },
+    {
+      "intent": "Consultar_descuento",
+      "examples": [
+        {
+          "text": "Hagame un descuento pequeño"
+        },
+        {
+          "text": "Me puede hacer una rebaja"
+        },
+        {
+          "text": "Me puede hacer un descuento"
+        },
+        {
+          "text": "No sea malito, una rebajita"
+        },
+        {
+          "text": "Y mi descuento"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Consultar_precio",
+      "examples": [
+        {
+          "text": "Amiga una pregunta, que precio tendrá un quintalito de arroz"
+        },
+        {
+          "text": "Ayúdeme con el precio del quintal de arroz"
+        },
+        {
+          "text": "Me puede decir el precio del arroz por mayor"
+        },
+        {
+          "text": "Me puede decir el precio del arroz por menor"
+        },
+        {
+          "text": "¿Qué precio tiene la arroba de arroz?"
+        },
+        {
+          "text": "¿Que precio tiene la libra de arroz?"
+        }
+      ],
+      "description": "Intenciones de usuario con las frases para consulta de precios de los productos."
+    },
+    {
+      "intent": "Consultar_servicio",
+      "examples": [
+        {
+          "text": "2 libras"
+        },
+        {
+          "text": "Cotizame 2 sacos de arroz"
+        },
+        {
+          "text": "Cuánto cuesta 1 quintal de arroz"
+        },
+        {
+          "text": "Dame 1 saco"
+        },
+        {
+          "text": "¿Está disponible el arroz por mayor?"
+        },
+        {
+          "text": "hermano, estuve revisando sus productos y me gusta el arroz que venden"
+        },
+        {
+          "text": "Hola quiero arroz"
+        },
+        {
+          "text": "Me gusta el arroz"
+        },
+        {
+          "text": "Me gusta el arroz que venden"
+        },
+        {
+          "text": "Me gustaría comprar un saco de arroz"
+        },
+        {
+          "text": "¿Me gustaría saber que tipo de arroz venden?"
+        },
+        {
+          "text": "Mejor dame 2 libras"
+        },
+        {
+          "text": "mejor vendeme 10 libras"
+        },
+        {
+          "text": "mejor véndeme 10 libras"
+        },
+        {
+          "text": "mejor vendeme 1 arroba"
+        },
+        {
+          "text": "mejor véndeme 20"
+        },
+        {
+          "text": "Me puede vender 3 libras de arroz"
+        },
+        {
+          "text": "Necesito arroz para vender en mi tienda"
+        },
+        {
+          "text": "Quiero algo más"
+        },
+        {
+          "text": "quiero que me dé arroz de calidad"
+        },
+        {
+          "text": "quiero que me venda arroz"
+        },
+        {
+          "text": "quiero un quintal de arroz"
+        },
+        {
+          "text": "Tiene arroz graneado"
+        },
+        {
+          "text": "Véndame 1 quintal de arroz"
+        },
+        {
+          "text": "VENDAME ARROZ"
+        },
+        {
+          "text": "Vende arroz de grano entero"
+        },
+        {
+          "text": "Véndeme arroz del bueno"
+        }
+      ],
+      "description": "Frases con las intenciones de usuario que quieren arroz"
+    },
+    {
+      "intent": "despedidas",
+      "examples": [
+        {
+          "text": "Adiós"
+        },
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "chao"
+        },
+        {
+          "text": "gracias hasta luego"
+        },
+        {
+          "text": "gracias por la información"
+        },
+        {
+          "text": "Hasta luego"
+        },
+        {
+          "text": "hasta mañana"
+        },
+        {
+          "text": "hasta otro momento"
+        },
+        {
+          "text": "hasta pronto"
+        },
+        {
+          "text": "me despido"
+        },
+        {
+          "text": "nada"
+        },
+        {
+          "text": "nos vemos"
+        },
+        {
+          "text": "nos vemos luego"
+        }
+      ],
+      "description": "Frases utilizadas para las despedidas de los visitantes"
+    },
+    {
+      "intent": "evaluacion",
+      "examples": [
+        {
+          "text": "Hola Roxybot voy a evaluarte"
+        },
+        {
+          "text": "Iniciar encuesta"
+        },
+        {
+          "text": "Iniciar encuesta de satisfacción al cliente"
+        },
+        {
+          "text": "Iniciar evaluación"
+        },
+        {
+          "text": "Muéstrame el cuestionario de preguntas"
+        },
+        {
+          "text": "Roxybot dame la encuesta"
+        },
+        {
+          "text": "Roxybot inicia la evaluación"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "gracias",
+      "examples": [
+        {
+          "text": "Admirable su trabajo"
+        },
+        {
+          "text": "Excelente"
+        },
+        {
+          "text": "Excelente trabajo"
+        },
+        {
+          "text": "Gracias"
+        },
+        {
+          "text": "Gracias luego los visitaré"
+        },
+        {
+          "text": "Gracias por el apoyo"
+        },
+        {
+          "text": "Gracias por el consejo"
+        },
+        {
+          "text": "Gracias por la información"
+        },
+        {
+          "text": "Muchas gracias"
+        },
+        {
+          "text": "Muy amable"
+        },
+        {
+          "text": "Ya no quiero gracias, me arrepentí"
+        }
+      ],
+      "description": "Frases para dar gracias por el trabajo realizado."
+    },
+    {
+      "intent": "insultos",
+      "examples": [
+        {
+          "text": "bobo"
+        },
+        {
+          "text": "eres tonto"
+        },
+        {
+          "text": "es basura"
+        },
+        {
+          "text": "Esto no sirve"
+        },
+        {
+          "text": "Me hiciste pasar tiempo"
+        },
+        {
+          "text": "no sirves para nada"
+        },
+        {
+          "text": "que idiota"
+        },
+        {
+          "text": "robot imbécil"
+        }
+      ],
+      "description": "Frases o palabras mal intencionadas, comentarios inapropiados, insultos, etc."
+    },
+    {
+      "intent": "quejas",
+      "examples": [
+        {
+          "text": "El arroz es de mala calidad"
+        },
+        {
+          "text": "el arroz estaba pasado"
+        },
+        {
+          "text": "Les falta mucho por aprender"
+        },
+        {
+          "text": "No me vendieron el peso completo"
+        },
+        {
+          "text": "No saben nada, aun les falta mucho."
+        },
+        {
+          "text": "Pésimo servicio que dan"
+        }
+      ],
+      "description": "Frases o intenciones para referirse a la quejas de usuario."
+    },
+    {
+      "intent": "salir",
+      "examples": [
+        {
+          "text": "Cambié de opinión, no quiero comprar nada"
+        },
+        {
+          "text": "Cancelar el proceso"
+        },
+        {
+          "text": "Detener la venta"
+        },
+        {
+          "text": "Espera, cancela eto"
+        },
+        {
+          "text": "No gracias"
+        },
+        {
+          "text": "no importa"
+        },
+        {
+          "text": "no quiero"
+        },
+        {
+          "text": "para por favor"
+        },
+        {
+          "text": "quiero parar"
+        },
+        {
+          "text": "¡Salir!"
+        },
+        {
+          "text": "terminar"
+        }
+      ],
+      "description": "Intención de usuario que finaliza el proceso de un flujo ."
+    },
+    {
+      "intent": "saludos",
+      "examples": [
+        {
+          "text": "Buena noche"
+        },
+        {
+          "text": "Buenas noches"
+        },
+        {
+          "text": "Buenas tardes"
+        },
+        {
+          "text": "Buena tarde"
+        },
+        {
+          "text": "Buen día"
+        },
+        {
+          "text": "Buenos días"
+        },
+        {
+          "text": "como han pasado"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey, buenas"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "Hola como están"
+        },
+        {
+          "text": "Hola como han pasado"
+        }
+      ],
+      "description": "Frases utilizadas para los saludos."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "datos_contacto",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "direccion",
+          "patterns": [
+            "[a-zA-Z1-9À-ÖØ-öø-ÿ]+\\.?(( |\\-)[a-zA-Z1-9À-ÖØ-öø-ÿ]+\\.?)"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9._-]+\\.[A-Za-z]{2,}\\b"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "nombres",
+          "patterns": [
+            "/^[a-z0-9_-]{3,16}$/"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "telefono",
+          "patterns": [
+            "([0-9]{6,10})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "direccion",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "direccion",
+          "patterns": [
+            "/^[a-z0-9_-]{3,200}$/"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "escala",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "numeros10",
+          "patterns": [
+            "([0-10]{1,2})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "escala_likert",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Insatisfecho",
+          "synonyms": [
+            "2"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Muy insatisfecho",
+          "synonyms": [
+            "1"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Muy satisfecho",
+          "synonyms": [
+            "5"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Neutral",
+          "synonyms": [
+            "3"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Satisfecho",
+          "synonyms": [
+            "4"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "escala_util",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No muy útil",
+          "synonyms": [
+            "2",
+            "no muy util"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "No, nada útil",
+          "synonyms": [
+            "1",
+            "no nada util"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sí, bastante útil",
+          "synonyms": [
+            "3",
+            "si bastante util"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sí, muy útil",
+          "synonyms": [
+            "4",
+            "si muy util"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "respuesta_condicional",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "BAD",
+            "de ningún modo",
+            "en absoluto",
+            "jamás",
+            "mal",
+            "me olvidé",
+            "nada",
+            "Negativo",
+            "no me importa",
+            "nones",
+            "noo",
+            "nooo",
+            "noooo",
+            "no quiero",
+            "no quiero nada",
+            "nunca",
+            "olvídalo",
+            "ya no quiero"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Si",
+          "synonyms": [
+            "Afirmativo",
+            "bien",
+            "bueno",
+            "claro",
+            "efectivamente",
+            "listo",
+            "listo le confirmo",
+            "OK",
+            "ok me parece bien",
+            "perfecto",
+            "por supuesto",
+            "Sí",
+            "sii",
+            "siiii",
+            "Si, por favor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tal vez",
+          "synonyms": [
+            "acaso",
+            "a lo mejor",
+            "posiblemente",
+            "quizá",
+            "quizás"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tamano",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "arroba",
+          "synonyms": [
+            "ab",
+            "arrobas",
+            "arrobita",
+            "saco pequeño",
+            "saquito"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "libra",
+          "synonyms": [
+            "lb",
+            "libras",
+            "librita"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "quintal",
+          "synonyms": [
+            "qt",
+            "quintales",
+            "quintalito",
+            "saco",
+            "saco grande",
+            "sacos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "telefono",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "celular",
+          "patterns": [
+            "([0-9]{10})"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "convencional1",
+          "patterns": [
+            "([0-9]{7})"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "convencional2",
+          "patterns": [
+            "([0-9]{9})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola. Soy tu asistente virtual"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Como puedo llamarte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No le he entendido. Intente reformular la consulta."
+              },
+              {
+                "text": "¿Puede expresarse con otras palabras? No le he entendido."
+              },
+              {
+                "text": "No entendí el significado."
+              },
+              {
+                "text": "¿No te entendí?, Pregúntame por mi emprendimiento. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_9_1605486920103",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Que bien que los hayas disfrutado, me animas a seguir creciendo."
+              }
+            ],
+            "response_type": "text"
+          },
+          {
+            "values": [
+              {
+                "text": "👌"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1610644174760",
+      "conditions": "$servicio_online==\"Muy satisfecho\" or $servicio_online==\"Satisfecho\"",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1610852433735",
+      "previous_sibling": "handler_4_1610644174822"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1610301417164",
+      "context": {
+        "cantidad": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_1_1610301417180"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1610488059896",
+      "context": {
+        "respuesta_condicional": "@respuesta_condicional"
+      },
+      "conditions": "@respuesta_condicional",
+      "event_name": "input",
+      "dialog_node": "handler_1_1610488059907"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, cuánto necesitas de arroz"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1610300726239",
+      "disabled": true,
+      "event_name": "focus",
+      "dialog_node": "handler_1_1610495219941"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_9_1610485110201",
+      "event_name": "focus",
+      "dialog_node": "handler_17_1610511094300"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Excelente, me animas a seguir creciendo."
+              }
+            ],
+            "response_type": "text"
+          },
+          {
+            "values": [
+              {
+                "text": "👌"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1610840697887",
+      "conditions": "$servicio_respuesta==\"Sí, muy útil\" or $servicio_respuesta==\"Sí, bastante útil\"",
+      "event_name": "filled",
+      "dialog_node": "handler_2_1610852905323",
+      "previous_sibling": "handler_8_1610852810587"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "¿En que tamaño lo prefieres?",
+            "options": [
+              {
+                "label": "Libra",
+                "value": {
+                  "input": {
+                    "text": "libra"
+                  }
+                }
+              },
+              {
+                "label": "Arroba",
+                "value": {
+                  "input": {
+                    "text": "arroba"
+                  }
+                }
+              },
+              {
+                "label": "Quintal",
+                "value": {
+                  "input": {
+                    "text": "quintal"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_5_1610301889625",
+      "context": {},
+      "event_name": "focus",
+      "dialog_node": "handler_3_1610301889626",
+      "previous_sibling": "handler_4_1610301889626"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De acuerdo, nos detendremos un momento."
+              }
+            ],
+            "response_type": "text"
+          },
+          {
+            "values": [
+              {
+                "text": "Estaré aquí esperándote"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1610300726239",
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "#salir",
+      "event_name": "generic",
+      "dialog_node": "handler_3_1610302427167",
+      "previous_sibling": "handler_1_1610495219941"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Me podría decir el número de teléfono?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_1_1610402268546",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1610402268547",
+      "previous_sibling": "handler_9_1610402268547"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De acuerdo, nos detendremos un momento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "De acuerdo, nos detendremos un momento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1610488005755",
+      "conditions": "#salir",
+      "event_name": "generic",
+      "dialog_node": "handler_3_1610488764641"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El valor ingresado en números es incorrecto"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1610301417164",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number < 1",
+      "event_name": "filled",
+      "dialog_node": "handler_3_1610498257892",
+      "previous_sibling": "handler_6_1610301417180"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pregunta Nro. 2 de 3"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Las respuestas dadas por nuestro agente virtual le fueron de utilidad?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "4 - Sí, muy útil",
+                "value": {
+                  "input": {
+                    "text": "Sí, muy útil"
+                  }
+                }
+              },
+              {
+                "label": "3 - Sí, bastante útil",
+                "value": {
+                  "input": {
+                    "text": "Sí, bastante útil"
+                  }
+                }
+              },
+              {
+                "label": "2 - No muy útil",
+                "value": {
+                  "input": {
+                    "text": "No muy útil"
+                  }
+                }
+              },
+              {
+                "label": "1 - No, nada útil",
+                "value": {
+                  "input": {
+                    "text": "No, nada útil"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_8_1610840697887",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1610840697889",
+      "previous_sibling": "handler_9_1610840697888"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pregunta Nro. 3 de 3"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Recomendarías nuestros productos a un amigo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Si",
+                "value": {
+                  "input": {
+                    "text": "Si"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_3_1610843224911",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1610843224912",
+      "previous_sibling": "handler_8_1610843224912"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1610301889625",
+      "context": {
+        "tamano": "@tamano"
+      },
+      "conditions": "@tamano",
+      "event_name": "input",
+      "dialog_node": "handler_4_1610301889626"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pregunta Nro. 1 de 3"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Qué tan satisfecho estás con la atención de Roxybot?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "5 - Muy satisfecho",
+                "value": {
+                  "input": {
+                    "text": "Muy satisfecho"
+                  }
+                }
+              },
+              {
+                "label": "4 - Satisfecho",
+                "value": {
+                  "input": {
+                    "text": "Satisfecho"
+                  }
+                }
+              },
+              {
+                "label": "3 -Neutral",
+                "value": {
+                  "input": {
+                    "text": "Neutral"
+                  }
+                }
+              },
+              {
+                "label": "2 - Muy insatisfecho",
+                "value": {
+                  "input": {
+                    "text": "Muy insatisfecho"
+                  }
+                }
+              },
+              {
+                "label": "1 - Insatisfecho",
+                "value": {
+                  "input": {
+                    "text": "Insatisfecho"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_8_1610644174760",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1610644174822",
+      "previous_sibling": "handler_5_1610644174822"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1610644174760",
+      "context": {
+        "servicio_online": "@escala_likert"
+      },
+      "conditions": "@escala_likert",
+      "event_name": "input",
+      "dialog_node": "handler_5_1610644174822"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Me podrías decir cuánto arroz necesitas?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1610301417164",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1610301417180",
+      "previous_sibling": "handler_1_1610301417180"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1610511094792",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1610511094803",
+      "previous_sibling": "handler_9_1610511094803"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, gracias por usar nuestros servicios"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_6_1610644164768",
+      "conditions": "#salir",
+      "event_name": "generic",
+      "dialog_node": "handler_6_1610843943173"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Disculpas por haberte decepcionado, aún estoy mejorando."
+              }
+            ],
+            "response_type": "text"
+          },
+          {
+            "values": [
+              {
+                "text": "✍"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1610644174760",
+      "conditions": "$servicio_online==\"Muy insatisfecho\" or $servicio_online==\"Insatisfecho\"",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1610852733523",
+      "previous_sibling": "handler_10_1610852433735"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Podemos concretar la venta?,"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Por favor responde Si o No"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1610488059896",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1610488059907",
+      "previous_sibling": "handler_1_1610488059907"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De acuerdo, nos detendremos un momento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Estaré aquí esperándote"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1610399717782",
+      "context": {
+        "salir_bucle": 1
+      },
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "#salir",
+      "event_name": "generic",
+      "dialog_node": "handler_7_1610503814733"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1610843224911",
+      "context": {
+        "respuesta_condicional": "@respuesta_condicional"
+      },
+      "conditions": "@respuesta_condicional",
+      "event_name": "input",
+      "dialog_node": "handler_8_1610843224912"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mil disculpas, mi diseñador no me ha entrenado bien, le haré conocer tu respuesta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "✍"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1610840697887",
+      "conditions": "$servicio_respuesta==\"No, nada útil\" or $servicio_respuesta==\"No muy útil\"",
+      "event_name": "filled",
+      "dialog_node": "handler_8_1610852810587",
+      "previous_sibling": "handler_3_1610840697889"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1610402268546",
+      "context": {
+        "telefono": "@telefono.literal"
+      },
+      "conditions": "@telefono.literal",
+      "event_name": "input",
+      "dialog_node": "handler_9_1610402268547"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_8_1610511094792",
+      "event_name": "input",
+      "dialog_node": "handler_9_1610511094803"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1610840697887",
+      "context": {
+        "servicio_respuesta": "@escala_util"
+      },
+      "conditions": "@escala_util",
+      "event_name": "input",
+      "dialog_node": "handler_9_1610840697888"
+    },
+    {
+      "type": "standard",
+      "title": "saludos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola. Soy RoxyBot tu asistente virtual"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "http://drive.google.com/uc?export=view&id=1MQWebFly10eEoyaWcaa2g_gz8byskcgR",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Como puedo ayudarte?"
+              },
+              {
+                "text": "¿En qué podemos servirle?"
+              },
+              {
+                "text": "¿Tienes alguna pregunta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Tenemos el mejor arroz de calidad de grano entero."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Vendemos por libras, arroba (25 libras) y por quintal (100 libras)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1605486920103",
+      "conditions": "#saludos",
+      "dialog_node": "node_10_1605486954976"
+    },
+    {
+      "type": "standard",
+      "title": "Encuesta de satisfacción",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gracias por tomarte un momento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "De este modo nos ayudas a crecer"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1610644164768"
+      },
+      "conditions": "#evaluacion",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1610840363067",
+      "previous_sibling": "node_6_1610512560466"
+    },
+    {
+      "type": "standard",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Consultar_precio",
+      "dialog_node": "node_1_1610509414274",
+      "previous_sibling": "node_5_1610496399617"
+    },
+    {
+      "type": "standard",
+      "title": "gracias",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De nada. Por favor hágame saber si necesita algo más."
+              },
+              {
+                "text": "El gusto es mío."
+              },
+              {
+                "text": "No hay problema. Avíseme si hay algo más en lo que le pueda ayudar."
+              },
+              {
+                "text": "Mi intención es servirle. 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1605486920103",
+      "conditions": "#gracias",
+      "dialog_node": "node_2_1605487237326",
+      "previous_sibling": "node_2_1610856627501"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Encantada de conocerte, $name."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": " ¿Como puedo ayudarte? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Puedes preguntarme por la venta de arroz por mayor y menor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenido",
+      "context": {
+        "name": "<? input.text.substring(0, 1).toUpperCase() + input.text.substring(1) ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1605622164402"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Ok, estaré esperando cuando cambies de opinión!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1605486920103",
+      "conditions": "#salir",
+      "dialog_node": "node_2_1610856627501",
+      "previous_sibling": "node_10_1605486954976"
+    },
+    {
+      "type": "standard",
+      "title": "about",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estamos ubicados en la Ciudad de Guayaquil en la Ciudadela Atarazana Avenida La Democracia y 3era Peatonal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1605486920103",
+      "conditions": "#about",
+      "dialog_node": "node_3_1605488012513",
+      "previous_sibling": "node_4_1605487592491"
+    },
+    {
+      "type": "frame",
+      "title": "Pregunta Cantidad y Tamaño",
+      "parent": "node_6_1610485385685",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Consultar_servicio",
+      "dialog_node": "node_3_1610300726239"
+    },
+    {
+      "type": "standard",
+      "title": "despedidas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Encantada de hablarte hoy. Esperamos que regreses pronto."
+              },
+              {
+                "text": "Fue un placer atenderlo, hasta pronto."
+              },
+              {
+                "text": "Hasta pronto, que tenga muchos éxitos"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1605486920103",
+      "conditions": "#despedidas",
+      "dialog_node": "node_4_1605487592491",
+      "previous_sibling": "node_2_1605487237326"
+    },
+    {
+      "type": "frame",
+      "title": "Concretar venta solicita Roxybot",
+      "parent": "node_5_1610480344011",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "dialog_node": "node_4_1610488005755",
+      "previous_sibling": "node_9_1610306105723"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gracias por responder, ponemos a tú disposición el email maciassecret\\@gmail.com, para que nos escribas tus dudas o recomendación"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "👍"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1610644164768",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1610496399617"
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1610844886912",
+      "previous_sibling": "handler_6_1610843943173"
+    },
+    {
+      "type": "folder",
+      "title": "20 Concretar venta",
+      "dialog_node": "node_5_1610480344011",
+      "previous_sibling": "node_6_1610485385685"
+    },
+    {
+      "type": "standard",
+      "title": "Esperando",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "💭"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "dialog_node": "node_5_1610496399617",
+      "previous_sibling": "node_5_1610480344011"
+    },
+    {
+      "type": "folder",
+      "title": "10 Pedir Cantidad y Tamaño de Arroz",
+      "dialog_node": "node_6_1610485385685",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola, el descuento se aplica por la comprar de arroz  tanto en arroba como en quintal"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "El ahorro por quintal es de US\\$ 15.00 (la libra tiene un costo de 35 ctvs.)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "El ahorro por arroba es de US\\$ 2.50 (la libra tiene un costo de 40 ctvs.)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Qué esperas y anímate a comprar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Consultar_descuento",
+      "dialog_node": "node_6_1610512560466",
+      "previous_sibling": "node_1_1610509414274"
+    },
+    {
+      "type": "frame",
+      "parent": "node_10_1610840363067",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1610844886912"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1610644164768"
+    },
+    {
+      "type": "frame",
+      "title": "Datos de cliente: telefono y direccion",
+      "parent": "node_9_1610306105723",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "",
+      "dialog_node": "node_7_1610399717782"
+    },
+    {
+      "type": "folder",
+      "title": "Chitchat",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1605486920103",
+      "previous_sibling": "node_10_1610840363067"
+    },
+    {
+      "type": "standard",
+      "title": "insultos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Esas palabras no eran necesarias"
+              },
+              {
+                "text": "Estoy aprendiendo, para servirte mejor"
+              },
+              {
+                "text": "Por favor no hagas ese tipo de chistes"
+              },
+              {
+                "text": "Me gustaría ayudarte, pero creo que tu intención es la de molestar, adiós."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1605486920103",
+      "conditions": "#insultos",
+      "dialog_node": "node_9_1605488980227",
+      "previous_sibling": "node_3_1605488012513"
+    },
+    {
+      "type": "standard",
+      "title": "Concretar venta solicita cliente",
+      "parent": "node_5_1610480344011",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Concretar_venta",
+      "dialog_node": "node_9_1610306105723"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Gracias  por responder!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "En breves minutos te llamaré para entregarte el pedido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "📲"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Te gustaría evaluar nuestro servicio online?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Solo escribe: \"Iniciar evaluación\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1610399717782",
+      "context": {
+        "direccion": "<? input.text.substring(0, 1).toUpperCase() + input.text.substring(1) ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1610496399617"
+      },
+      "conditions": "$salir_bucle==0",
+      "dialog_node": "node_9_1610485110201",
+      "previous_sibling": "handler_7_1610503814733"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Que bien que los hayas disfrutado, me animas a seguir creciendo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1610644164768",
+      "conditions": "@escala_likert:(Muy satisfecho) || @escala_likert:Satisfecho",
+      "dialog_node": "response_10_1610844376906",
+      "previous_sibling": "response_2_1610644173973"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Excelente, me animas a seguir creciendo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1610644164768",
+      "conditions": "@escala_util:(Sí, bastante útil) || @escala_util:(Sí, muy útil)",
+      "dialog_node": "response_10_1610844677351",
+      "previous_sibling": "response_9_1610844457277"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Gracias!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "👏"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1610644164768",
+      "conditions": "@respuesta_condicional:Si",
+      "dialog_node": "response_1_1610844744480",
+      "previous_sibling": "response_10_1610844677351"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La Libra de arroz 50 ctvs. (comprando desde 1 a 24 libras)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "La Libra de arroz 40 ctvs. (comprando desde 25 a 99 libras, o en tamaño arroba)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "La Libra de arroz 35 ctvs. (comprando desde 100 libras en adelante, o en tamaño quintal)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Al momento Usted no ha realizado ningún pedido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1610509414274",
+      "conditions": "$total_facturado<1",
+      "dialog_node": "response_2_1610513611972",
+      "previous_sibling": "response_9_1610513239563"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Disculpas por haberte decepcionado, aún estoy mejorando."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1610644164768",
+      "conditions": "@escala_likert:(Muy insatisfecho) || @escala_likert:Insatisfecho",
+      "dialog_node": "response_2_1610644173973",
+      "previous_sibling": "slot_3_1610843224911"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Estoy triste!, ¡a seguir mejorando!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "👋"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1610644164768",
+      "conditions": "@respuesta_condicional:No",
+      "dialog_node": "response_4_1610844814193",
+      "previous_sibling": "response_1_1610844744480"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Precio por libra US\\$ 0.50 (minorista)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Las <?  $cantidad?> libras de arroz cuestan: US\\$ <?  $cantidad * 0.50 ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Si estás interesado en adquirir nuestro arroz, solo escribe: \"Concretar Venta\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1610300726239",
+      "context": {
+        "total_facturado": "<?  $cantidad* 0.50 ?>"
+      },
+      "conditions": "$cantidad > 0 && $cantidad < 25 && @tamano:libra",
+      "dialog_node": "response_6_1610301416717",
+      "previous_sibling": "slot_5_1610301889625"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Precio por libra US\\$ 0.40 (mayor o igual a 25 libras )"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Las <? $cantidad ?> libras de arroz cuestan US\\$ <? $cantidad* 0.40 ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Si estás interesado en adquirir nuestro arroz, solo escribe: \"Concretar Venta\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1610300726239",
+      "context": {
+        "total_facturado": "<?  $cantidad* 0.40 ?>"
+      },
+      "conditions": "$cantidad > 24 && $cantidad < 100 && @tamano:libra",
+      "dialog_node": "response_6_1610303006317",
+      "previous_sibling": "response_6_1610301416717"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Precio por libra US\\$ 0.35 (mayor o igual a 100 libras )"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Las <? $cantidad?> libras de arroz cuestan US\\$ <? $cantidad* 0.35 ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Si estás interesado en adquirir nuestro arroz, solo escribe: \"Concretar Venta\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1610300726239",
+      "context": {
+        "total_facturado": "<?  $cantidad* 0.35 ?>"
+      },
+      "conditions": "$cantidad > 99 && @tamano:libra",
+      "dialog_node": "response_6_1610303358356",
+      "previous_sibling": "response_6_1610303006317"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Ahora dime la dirección dónde le haremos la entrega?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1610399717782",
+      "context": {},
+      "conditions": "$salir_bucle==0",
+      "dialog_node": "response_6_1610399887593",
+      "previous_sibling": "slot_1_1610402268546"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Aún no has realizado tu pedido!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¡Anímate y haz tu pedido ,hoy mismo!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1610306105723",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1610496399617"
+      },
+      "conditions": "$total_facturado<1",
+      "dialog_node": "response_7_1610399659407",
+      "previous_sibling": "response_8_1610329903538"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, el valor total por pagar es de <? $total_facturado ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Voy a pedirte más información para concretar la venta"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1610488005755",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1610399717782"
+      },
+      "conditions": "@respuesta_condicional:Si",
+      "dialog_node": "response_7_1610488059531",
+      "previous_sibling": "slot_7_1610488059896"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Precio por libra US\\$0.40 (precio por arroba )"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Las <?  $cantidad?> arrobas de arroz cuestan US\\$ <?  $cantidad*10 ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Si estás interesado en adquirir nuestro arroz, solo escribe: \"Concretar Venta\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1610300726239",
+      "context": {
+        "total_facturado": "<?  $cantidad*10 ?>"
+      },
+      "conditions": "$cantidad > 0 && @tamano:arroba",
+      "dialog_node": "response_8_1610304634106",
+      "previous_sibling": "response_6_1610303358356"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Precio por libra US\\$ 0.35 (precio por quintal)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Los <? $cantidad?> quintales de arroz cuestan US\\$ <? $cantidad*35 ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Si estás interesado en adquirir nuestro arroz, solo escribe: \"Concretar Venta\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1610300726239",
+      "context": {
+        "total_facturado": "<?  $cantidad*35 ?>"
+      },
+      "conditions": "$cantidad > 0 && @tamano:quintal",
+      "dialog_node": "response_8_1610305497008",
+      "previous_sibling": "response_8_1610304634106"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, el valor total por pagar es de US\\$<? $total_facturado ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "El Costo de envío es gratis a partir de 1 quintal (100 libras), Costo de envío en comprar por libras o arroba es de US\\$3.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Voy a pedirte más información para concretar la venta"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1610306105723",
+      "context": {
+        "salir_bucle": 0
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1610399717782"
+      },
+      "conditions": "$total_facturado>0",
+      "dialog_node": "response_8_1610329903538",
+      "previous_sibling": "node_7_1610399717782"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, cuando estés listo me escribes por favor"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1610488005755",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1610496399617"
+      },
+      "conditions": "@respuesta_condicional:No",
+      "dialog_node": "response_8_1610489062591",
+      "previous_sibling": "response_7_1610488059531"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La Libra de arroz 50 ctvs. (comprando desde 1 a 24 libras)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "La Libra de arroz 40 ctvs. (comprando desde 25 a 99 libras, o en tamaño arroba)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "La Libra de arroz 35 ctvs. (comprando desde 100 libras en adelante, o en tamaño quintal)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1610509414274",
+      "conditions": "$total_facturado>0",
+      "dialog_node": "response_9_1610513239563"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mil disculpas, mi diseñado no me ha entrenado bien, le haré conocer tu respuesta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1610644164768",
+      "conditions": "@escala_util:(No, nada útil) || @escala_util:(No muy útil)",
+      "dialog_node": "response_9_1610844457277",
+      "previous_sibling": "response_10_1610844376906"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1610399717782",
+      "variable": "$telefono",
+      "dialog_node": "slot_1_1610402268546",
+      "previous_sibling": "node_9_1610485110201"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1610300726239",
+      "variable": "$cantidad",
+      "conditions": "",
+      "dialog_node": "slot_3_1610301417164",
+      "previous_sibling": "handler_3_1610302427167"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1610644164768",
+      "variable": "$respuesta_condicional",
+      "dialog_node": "slot_3_1610843224911",
+      "previous_sibling": "slot_8_1610840697887"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1610300726239",
+      "variable": "$tamano",
+      "conditions": "",
+      "dialog_node": "slot_5_1610301889625",
+      "previous_sibling": "slot_3_1610301417164"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1610488005755",
+      "variable": "$respuesta_condicional",
+      "dialog_node": "slot_7_1610488059896",
+      "previous_sibling": "handler_3_1610488764641"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1610485110201",
+      "dialog_node": "slot_8_1610511094792",
+      "previous_sibling": "handler_17_1610511094300"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1610644164768",
+      "variable": "$servicio_online",
+      "dialog_node": "slot_8_1610644174760",
+      "previous_sibling": "node_4_1610844886912"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1610644164768",
+      "variable": "$servicio_respuesta",
+      "dialog_node": "slot_8_1610840697887",
+      "previous_sibling": "slot_8_1610644174760"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Querías decir:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Ninguna de las anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Ventas arroz",
+  "language": "es",
+  "description": ""
+}
