@@ -6,4 +6,5 @@ El proyecto presentado fue diseñado en IBM Watson, como resultado de la investi
 
 Lenguaje: español
 Datos entrenados: 15 intenciones, 11 entidades, 76 diálogos. 
-Versión: 1.0
+
+## Versión: 1.0
