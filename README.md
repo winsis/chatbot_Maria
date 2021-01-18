@@ -4,7 +4,7 @@ El proyecto presentado fue diseñado en IBM Watson, como resultado de la investi
 
 # Skill - Venta de Arroz
 
-Lenguaje: español
+Lenguaje: español, 
 Datos entrenados: 15 intenciones, 11 entidades, 76 diálogos. 
 
 ## Versión: 1.0
